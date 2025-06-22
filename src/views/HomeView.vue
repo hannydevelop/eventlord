@@ -274,8 +274,8 @@ export default {
                 },
                 {
                     icon: 'fas fa-theater-masks',
-                    title: 'Cultural Events',
-                    description: 'Celebrating Nigerian heritage with traditional elements beautifully integrated into modern luxury.'
+                    title: 'Funerals / Memorial Events',
+                    description: 'Celebrating a life well lived with the dignity it deserves. A graceful farewell, thoughtfully planned with cultural sensitivity and heartfelt detail '
                 },
                 {
                     icon: 'fas fa-gem',
@@ -320,7 +320,7 @@ export default {
             alert('Thank you for your inquiry! We will redirect you to WhatsApp to complete the message.');
             let res = `Hi, my name is ${this.form.name}, I will like to inquire about an event type: ${this.form.eventType}. Here's my email address: ${this.form.email}, and phone number to contact me: ${this.form.phone}. Here's more info about my inquiry: ${this.form.message}`;
             let encodedMessage = encodeURIComponent(res);
-            let phone = '2349076993818'; // Use the recipient's full WhatsApp number with country code
+            let phone = '2348101111091'; // Use the recipient's full WhatsApp number with country code
             let url = `https://wa.me/${phone}?text=${encodedMessage}`;
 
             window.open(url, '_blank');

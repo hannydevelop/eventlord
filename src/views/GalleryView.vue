@@ -226,7 +226,7 @@ export default {
             chapters: [
                 { id: 'overview', title: 'Overview' },
                 { id: 'weddings', title: 'Weddings' },
-                { id: 'memorials', title: 'Memorials' },
+                { id: 'memorials', title: 'Funerals' },
             ],
 
             weddingPhotos: [
