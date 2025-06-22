@@ -106,7 +106,7 @@ export default {
         return {
             about: {
                 heroTitle: 'About Our Legacy',
-                heroSubtitle: 'Crafting Moments That Last a Lifetime'
+                heroSubtitle: 'Crafting Moments & Memories That Last a Lifetime'
             },
             values: [
                 {
@@ -221,10 +221,6 @@ export default {
 .hero-content {
     position: relative;
     z-index: 2;
-}
-
-.space-around {
-    margin: 20px;
 }
 
 .hero-title {

@@ -1,4 +1,5 @@
 <template>
+    <NavBar/>
     <div>
         <!-- Header -->
         <header class="header">
@@ -205,6 +206,7 @@
             </div>
         </div>
     </div>
+    <FooterView/>
 </template>
 
 <script>
@@ -315,6 +317,11 @@ export default {
     },
 
     mounted() {
+        AOS.init({
+            duration: 1000,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
         setTimeout(this.animatePages, 100);
         this.setupIntersectionObserver();
 
@@ -334,13 +341,7 @@ export default {
 </script>
 
 <style scoped>
-body {
-    font-family: 'Georgia', serif;
-    background: linear-gradient(135deg, #1a1a1a 0%, var(--charcoal) 100%);
-    color: var(--cream);
-    overflow-x: hidden;
-    perspective: 1000px;
-}
+
 
 /* Header */
 .header {
@@ -349,6 +350,7 @@ body {
     background: linear-gradient(45deg, var(--charcoal), var(--deep-gold));
     position: relative;
     margin-bottom: 2rem;
+    margin-top: 20vh;
 }
 
 .header h1 {

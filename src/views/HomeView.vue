@@ -18,7 +18,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
-                                        <h1 class="fade-in-up">Exquisite Events</h1>
+                                        <h1 class="fade-in-up">-Moments & Memories-</h1>
                                         <p class="fade-in-up" style="animation-delay: 0.3s">Creating unforgettable luxury
                                             experiences across Nigeria with unparalleled elegance and sophistication</p>
                                         <button class="btn btn-luxury fade-in-up" style="animation-delay: 0.5s"
@@ -218,7 +218,7 @@
                                             <option value="corporate">Corporate Event</option>
                                             <option value="birthday">Birthday Celebration</option>
                                             <option value="anniversary">Anniversary</option>
-                                            <option value="other">Other</option>
+                                            <option value="funeral">Funeral</option>
                                         </select>
                                     </div>
                                 </div>
@@ -317,7 +317,13 @@ export default {
         },
         submitForm() {
             // Simulate form submission
-            alert('Thank you for your inquiry! We will contact you within 24 hours to discuss your luxury event.');
+            alert('Thank you for your inquiry! We will redirect you to WhatsApp to complete the message.');
+            let res = `Hi, my name is ${this.form.name}, I will like to inquire about an event type: ${this.form.eventType}. Here's my email address: ${this.form.email}, and phone number to contact me: ${this.form.phone}. Here's more info about my inquiry: ${this.form.message}`;
+            let encodedMessage = encodeURIComponent(res);
+            let phone = '2349076993818'; // Use the recipient's full WhatsApp number with country code
+            let url = `https://wa.me/${phone}?text=${encodedMessage}`;
+
+            window.open(url, '_blank');
             // Reset form
             this.form = {
                 name: '',

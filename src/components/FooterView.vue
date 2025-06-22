@@ -19,15 +19,13 @@
                         <div class="social-links">
                             <a href="https://www.instagram.com/event_lord"><i class="fab fa-instagram"></i></a>
                             <a href="https://wa.me/08101111091"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
                 <hr style="border-color: var(--primary-gold); opacity: 0.3;">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p style="opacity: 0.6;">&copy; 2025 Event Lord Events Nigeria. All rights reserved.</p>
+                        <p style="opacity: 0.6;">&copy; 2025 Event Lord Events Nigeria - Moments & Memories. All rights reserved.</p>
                     </div>
                 </div>
             </div>
