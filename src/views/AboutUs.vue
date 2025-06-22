@@ -175,26 +175,6 @@ export default {
             ],
         }
     },
-    methods: {
-        animateStats() {
-            const statNumbers = document.querySelectorAll('.stat-number');
-            statNumbers.forEach(stat => {
-                const target = parseInt(stat.getAttribute('data-count'));
-                let count = 0;
-                const increment = target / 100;
-
-                const timer = setInterval(() => {
-                    count += increment;
-                    if (count >= target) {
-                        stat.textContent = target + (stat.parentElement.querySelector('.stat-label').textContent.includes('Satisfaction') ? '%' : '+');
-                        clearInterval(timer);
-                    } else {
-                        stat.textContent = Math.floor(count) + (stat.parentElement.querySelector('.stat-label').textContent.includes('Satisfaction') ? '%' : '+');
-                    }
-                }, 20);
-            });
-        }
-    },
     mounted() {
         // Initialize AOS
         AOS.init({
