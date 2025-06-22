@@ -18,7 +18,7 @@
                         <h5 style="color: var(--primary-gold);">Follow Us</h5>
                         <div class="social-links">
                             <a href="https://www.instagram.com/event_lord"><i class="fab fa-instagram"></i></a>
-                            <a href="https://wa.me/08101111091"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://wa.me/2348101111091"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
