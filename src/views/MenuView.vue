@@ -6,9 +6,8 @@
     <div class="landing-page">
         <div class="logo-background"></div>
         <div class="landing-content">
-            <img src="../assets/logo.png" alt="Event Lord Logo" class="landing-logo">
-            <h1 class="landing-title">Okwudili & Ugochi</h1>
-            <p class="landing-subtitle">A Beautiful Wedding from Heaven</p>
+            <h1 class="landing-title">EVENTLORD</h1>
+            <p class="landing-subtitle">EVENT MANAGEMENT COMPANY LTD</p>
             <label for="menu-toggle" class="view-menu-btn">View Menu</label>
         </div>
     </div>
@@ -34,14 +33,16 @@
                 </div>
 
                 <div class="hero-content">
-                    <svg class="hero-star animate-fade-in" viewBox="0 0 64 64" fill="currentColor">
-                        <path d="M32 4L38 16H58L42 28L48 44L32 34L16 44L22 28L6 16H26L32 4Z" opacity="0.3" />
-                        <circle cx="32" cy="32" r="3" />
-                    </svg>
+                    <div class="hero-flourish animate-fade-in delay-500">
+                        <svg viewBox="0 0 128 32">
+                            <path d="M0 16 Q32 0 64 16 Q96 32 128 16" fill="none" stroke="currentColor" stroke-width="1"
+                                opacity="0.5" />
+                            <circle cx="64" cy="16" r="3" fill="currentColor" />
+                        </svg>
+                    </div>
 
                     <p class="hero-tagline animate-fade-in delay-100">A Beautiful Wedding from Heaven</p>
-
-                    <h1 class="hero-title animate-fade-in-up delay-200">Okwudili & Ugochi</h1>
+                    <h1 class="hero-title animate-fade-in-up delay-200">Chinelo & Chigozie</h1>
 
                     <div class="hero-subtitle animate-fade-in delay-300">
                         <span class="hero-subtitle-line"></span>
@@ -50,8 +51,8 @@
                     </div>
 
                     <div class="hero-details animate-fade-in delay-400">
-                        <p class="hero-date">Saturday, November 15th, 2025</p>
-                        <p class="hero-venue">The Grand Ballroom • 7:00 PM</p>
+                        <p class="hero-date">Saturday, December 06th, 2025</p>
+                        <p class="hero-venue">The Grand Ballroom • 2:00 PM</p>
                     </div>
 
                     <div class="hero-flourish animate-fade-in delay-500">
@@ -67,7 +68,7 @@
             <!-- Appetizers Section -->
             <section class="menu-section animate-fade-in-up delay-300">
                 <div class="menu-section-header">
-                    <h2 class="menu-section-title">To Begin</h2>
+                    <h2 class="menu-section-title">To Begin (STARTER)</h2>
                     <div class="menu-divider">
                         <span class="menu-divider-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -82,49 +83,159 @@
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Butternut Squash Velouté</h3>
+                                <h3 class="menu-item-title">Seafood Pepper Soup with Bread bun</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
-                                    <span class="menu-item-tag">GF</span>
+                                    <span class="menu-item-tag">PEPPER SOUP</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Silky autumn squash soup with crème fraîche, toasted pepitas, and
-                            sage brown butter</p>
+                        <p class="menu-item-description">Seafood Pepper Soup with Bread bun</p>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Main Course Section (NIGERIAN MEALS) -->
+            <section class="menu-section animate-fade-in-up delay-500">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">Main Course (NIGERIAN MEALS)</h2>
+                    <div class="menu-divider">
+                        <span class="menu-divider-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Jollof rice / Fried rice / Moi-Moi / Chicken / Coleslaw </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Jollof rice / Fried rice / Moi-Moi / Chicken / Coleslaw</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Seared Diver Scallops</h3>
+                                <h3 class="menu-item-title">Steamed White Rice and Signature Chicken Sauce</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">GF</span>
+                                    <span class="menu-item-tag">RICE</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Pan-seared sea scallops with cauliflower purée, crispy pancetta,
-                            and micro herbs</p>
+                        <p class="menu-item-description">Steamed White Rice and Signature Chicken Sauce</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Wild Mushroom Tart</h3>
+                                <h3 class="menu-item-title">Steamed White Rice and Plain Sauce</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
+                                    <span class="menu-item-tag">RICE</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Puff pastry filled with forest mushrooms, gruyère, fresh thyme, and
-                            truffle oil</p>
+                        <p class="menu-item-description">Steamed White Rice and Plain Sauce</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Shawarma Egg Rice / Chicken / Salad </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Shawarma Egg Rice / Chicken / Salad</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Steamed Basmati Rice / Boneless Chicken Sauce</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Steamed Basmati Rice / Boneless Chicken Sauce</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Steamed White Rice / Vegetable Stew / Proteins</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Steamed White Rice / Vegetable Stew / Proteins </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Pineapple Rice / Chicken / Salad</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Pineapple Rice / Chicken / Salad </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Coconut Rice / Dry Fish / Prawns / Chicken </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Coconut Rice / Dry Fish / Prawns / Chicken</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Ukwa / Peppered Mangala Fish</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">UKWA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Ukwa / Peppered Mangala Fish</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Abacha / Ugba / Kpomo</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">ABACHA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Abacha / Ugba / Kpomo</p>
                     </article>
                 </div>
             </section>
 
-            <!-- Main Course Section -->
+            <!-- Main Course Section (NIGERIAN SOUPS) -->
             <section class="menu-section animate-fade-in-up delay-500">
                 <div class="menu-section-header">
-                    <h2 class="menu-section-title">Main Course</h2>
+                    <h2 class="menu-section-title">Main Course (NIGERIAN SOUPS)</h2>
                     <div class="menu-divider">
                         <span class="menu-divider-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -139,40 +250,376 @@
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Herb-Crusted Rack of Lamb</h3>
+                                <h3 class="menu-item-title">Egusi Soup & Fufu / Semo</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">GF</span>
+                                    <span class="menu-item-tag">EGUSI</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">New Zealand lamb with rosemary jus, roasted fingerling potatoes,
-                            and seasonal vegetables</p>
+                        <p class="menu-item-description">Egusi Soup & Fufu / Semo</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Pan-Roasted Sea Bass</h3>
+                                <h3 class="menu-item-title">Fresh Vegetables Okro & Fufu / Semo</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">GF</span>
+                                    <span class="menu-item-tag">OKRO</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Chilean sea bass with saffron risotto, broccolini, and lemon beurre
-                            blanc</p>
+                        <p class="menu-item-description">Fresh Vegetables Okro & Fufu / Semo</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Truffle Gnocchi</h3>
+                                <h3 class="menu-item-title">Onugbu Soup & Fufu / Semo</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
+                                    <span class="menu-item-tag">ONUGBU</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">House-made potato gnocchi with black truffle cream sauce, parmesan,
-                            and chives</p>
+                        <p class="menu-item-description">Onugbu Soup & Fufu / Semo</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Shawarma Egg Rice / Chicken / Salad </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Shawarma Egg Rice / Chicken / Salad</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Nsala Soup & Semo / Fufu</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">NSALA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Nsala Soup & Semo / Fufu</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Ora Soup & Semo / Fufu</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">ORA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Ora Soup & Semo / Fufu</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Goat Meat Nsala / Fufu & Semo</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">NSALA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Goat Meat Nsala / Fufu & Semo</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Goat Meat Vegetable Soup / Fufu & Semo</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">VEGETABLE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Goat Meat Vegetable Soup / Fufu & Semo</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Edikaikong Soup & Semo</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">EDIKAIKONG</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Edikaikong Soup & Semo</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Main Course Section (CONTINENTAL MEALS) -->
+            <section class="menu-section animate-fade-in-up delay-500">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">Main Course (CONTINENTAL MEALS)</h2>
+                    <div class="menu-divider">
+                        <span class="menu-divider-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Singaporean Noddles / Chinese Rice / Chicken Sauce</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Singaporean Noddles / Chinese Rice / Chicken Sauce</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Special Fried Rice & Grilled Prawns</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Special Fried Rice & Grilled Prawns</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Tempura Prawns With Sweet Chilli Dip</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PRAWNS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Tempura Prawns With Sweet Chilli Dip</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Shawarma Egg Rice / Chicken / Salad </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Shawarma Egg Rice / Chicken / Salad</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Chicken Lollipop on Fruit Salad</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">FRUIT SALAD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Chicken Lollipop on Fruit Salad</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Creamy Pasta Served With Spicy Large Prawns</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PASTA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Creamy Pasta Served With Spicy Large Prawns</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Sweet & Spicy Beef Ribs with Mashed Potatoes and Mushroom Sauce</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">MASHED POTATOES</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Sweet & Spicy Beef Ribs with Mashed Potatoes and Mushroom Sauce</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Spicy Barracuda Steak with Steamed Herb Rice</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RICE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Spicy Barracuda Steak with Steamed Herb Rice</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Sides Section -->
+            <section class="menu-section animate-fade-in-up delay-700">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">Sides/Proteins</h2>
+                    <div class="menu-divider">
+                        <span class="menu-divider-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Full Vegetable Salad</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">VEGETABLE SALAD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Full Vegetable Salad</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Peppered Crocker Fish</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">CROCKER FISH</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Peppered Crocker Fish</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Peppered Goat Meat</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">GOAT MEAT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Peppered Goat Meat</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Peppered Chicken</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">CHICKEN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Peppered Chicken</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Sauced Snails</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">SNAILS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Sauced Snails</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Grilled Prawns</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PRAWNS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Grilled Prawns</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Grilled Catfish</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">CATFISH</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Grilled Catfish</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Nigerian Fresh Vegetables Salad</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">NIGERIAN SALAD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Nigerian Fresh Vegetables Salad</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Grills Section -->
+            <section class="menu-section animate-fade-in-up delay-700">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">GRILLS</h2>
+                    <div class="menu-divider">
+                        <span class="menu-divider-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Spicy Grilled Ram</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">RAM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Spicy Grilled Ram</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Grilled Turkey and Chips</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">TURKEY</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Grilled Turkey and Chips</p>
                     </article>
                 </div>
             </section>
@@ -180,7 +627,7 @@
             <!-- Desserts Section -->
             <section class="menu-section animate-fade-in-up delay-700">
                 <div class="menu-section-header">
-                    <h2 class="menu-section-title">To Finish</h2>
+                    <h2 class="menu-section-title">To Finish (DESSERT)</h2>
                     <div class="menu-divider">
                         <span class="menu-divider-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -195,40 +642,126 @@
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Chocolate Fondant</h3>
+                                <h3 class="menu-item-title">Creamy Ice Cream in Plates & Cones </h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
+                                    <span class="menu-item-tag">ICE CREAM</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Warm dark chocolate cake with molten center, vanilla bean ice
-                            cream, and gold leaf</p>
+                        <p class="menu-item-description">Creamy Ice Cream in Plates & Cones</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Pear Tarte Tatin</h3>
+                                <h3 class="menu-item-title">Red Velvet Cake and Ice Cream</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
+                                    <span class="menu-item-tag">ICE CREAM</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Caramelized pear upside-down tart with cinnamon crème anglaise</p>
+                        <p class="menu-item-description">Red Velvet Cake and Ice Cream</p>
                     </article>
 
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Cheese Selection</h3>
+                                <h3 class="menu-item-title">Belgian Waffle in Pan</h3>
                                 <div class="menu-item-tags">
-                                    <span class="menu-item-tag">V</span>
-                                    <span class="menu-item-tag">GF</span>
+                                    <span class="menu-item-tag">WAFFLE</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="menu-item-description">Artisanal cheese trio with honeycomb, fig compote, and walnut
-                            crisps</p>
+                        <p class="menu-item-description">Belgian Waffle in Pan</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Milkshake </h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">MILKSHAKE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Milkshake </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Chocolate Cake and Ice Cream</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">CAKE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Chocolate Cake and Ice Cream</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Apple Crumble</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">CRUMBLE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Apple Crumble</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Afterparty Section -->
+            <section class="menu-section animate-fade-in-up delay-700">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">To Finish (AFTERPARTY MEAL)</h2>
+                    <div class="menu-divider">
+                        <span class="menu-divider-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Pizza Slice</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PIZZA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Pizza Slice</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Chocolate Coated Puff Puff</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PUFF-PUFF</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Chocolate Coated Puff Puff</p>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Hot Spicy Noddles with Diced Chicken</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">NODDLES</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Hot Spicy Noddles with Diced Chicken</p>
                     </article>
                 </div>
             </section>
@@ -244,20 +777,9 @@
                     Our kitchen will be happy to accommodate your needs.
                 </p>
 
-                <div class="footer-legend">
-                    <span class="footer-legend-item">
-                        <span class="footer-legend-dot"></span>
-                        V - Vegetarian
-                    </span>
-                    <span class="footer-legend-item">
-                        <span class="footer-legend-dot"></span>
-                        GF - Gluten Free
-                    </span>
-                </div>
-
                 <div class="footer-closing">
                     <p class="footer-closing-title">Thank you for joining us</p>
-                    <p class="footer-closing-text">We hope you enjoy your evening</p>
+                    <p class="footer-closing-text">We hope you enjoy this event</p>
                 </div>
             </footer>
         </div>

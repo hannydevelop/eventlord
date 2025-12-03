@@ -10,9 +10,9 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <h5 style="color: var(--primary-gold);">Contact Info</h5>
-                        <p><i class="fas fa-map-marker-alt me-2"></i>Meloch Avenue, Awka-Anambra, Nigeria</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>ABUJA : SOUTEAST ( ANAMBRA )</p>
                         <p><i class="fas fa-phone me-2"></i>+234 (0) 810 111 1091</p>
-                        <p><i class="fas fa-envelope me-2"></i>hello@eventlordevents.ng</p>
+                        <p><i class="fas fa-envelope me-2"></i>eventlord20@gmail.com</p>
                     </div>
                     <div class="col-lg-4 mb-4">
                         <h5 style="color: var(--primary-gold);">Follow Us</h5>
@@ -25,7 +25,7 @@
                 <hr style="border-color: var(--primary-gold); opacity: 0.3;">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p style="opacity: 0.6;">&copy; 2025 Event Lord Events Nigeria - Moments & Memories. All rights reserved.</p>
+                        <p style="opacity: 0.6;">&copy; 2025 Event Lord Event Management Company LTD. All rights reserved.</p>
                     </div>
                 </div>
             </div>
