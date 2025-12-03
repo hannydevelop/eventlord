@@ -8,7 +8,7 @@
         <div class="landing-content">
             <h1 class="landing-title">EVENTLORD</h1>
             <p class="landing-subtitle">EVENT MANAGEMENT COMPANY LTD</p>
-            <label for="menu-toggle" class="view-menu-btn">View Menu</label>
+            <label for="menu-toggle" class="view-menu-btn">View Food Menu</label>
         </div>
     </div>
 
@@ -46,7 +46,7 @@
 
                     <div class="hero-subtitle animate-fade-in delay-300">
                         <span class="hero-subtitle-line"></span>
-                        <span class="hero-subtitle-text">Wedding Menu</span>
+                        <span class="hero-subtitle-text">Food Menu</span>
                         <span class="hero-subtitle-line"></span>
                     </div>
 
