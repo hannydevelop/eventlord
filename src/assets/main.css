@@ -6,6 +6,19 @@
     --charcoal: #2C2C2C;
     --cream: #FDF6E3;
     --white: #FFFFFF;
+
+    --background: #f9f7f5;
+      --foreground: #2d2622;
+      --primary: #6b3a3a;
+      --primary-light: #8b5a5a;
+      --accent: #c9a227;
+      --accent-light: #d4b85a;
+      --muted: #7a7067;
+      --border: #e5e0da;
+      --cream-dark: #e8e3dc;
+      
+      --font-display: 'Playfair Display', serif;
+      --font-body: 'Lato', sans-serif;
 }
 
 * {
