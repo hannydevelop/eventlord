@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <h5 style="color: var(--primary-gold);">Contact Info</h5>
-                        <p><i class="fas fa-map-marker-alt me-2"></i>ABUJA : SOUTEAST ( ANAMBRA )</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>ABUJA : SOUTHEAST ( ANAMBRA )</p>
                         <p><i class="fas fa-phone me-2"></i>+234 (0) 810 111 1091</p>
                         <p><i class="fas fa-envelope me-2"></i>eventlord20@gmail.com</p>
                     </div>

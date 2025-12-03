@@ -52,7 +52,7 @@
 
                     <div class="hero-details animate-fade-in delay-400">
                         <p class="hero-date">Saturday, December 06th, 2025</p>
-                        <p class="hero-venue">The Grand Ballroom • 2:00 PM</p>
+                        <p class="hero-venue">The Grand Ballroom, Patterson Hall • 2:00 PM</p>
                     </div>
 
                     <div class="hero-flourish animate-fade-in delay-500">
