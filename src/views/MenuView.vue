@@ -18,7 +18,7 @@
         <label for="menu-toggle" class="back-btn">← Back</label>
 
         <!-- Logo watermark in menu background -->
-        <img src="../assets/logo.png" alt="" class="menu-logo-bg" aria-hidden="true">
+        <img src="../assets/background.jpeg" alt="" class="menu-logo-bg" aria-hidden="true">
 
         <div class="container">
             <!-- Hero Section -->
@@ -872,7 +872,7 @@ body {
 
 .landing-title {
     font-family: var(--font-display);
-    font-size: clamp(36px, 8vw, 64px);
+    font-size: clamp(46px, 8vw, 74px);
     color: var(--primary);
     margin-bottom: 16px;
     letter-spacing: -0.02em;
@@ -1065,7 +1065,7 @@ h3 {
     transform: translate(-50%, -50%);
     width: 50%;
     max-width: 500px;
-    opacity: 0.05;
+    opacity: 0.09;
     pointer-events: none;
     z-index: 0;
 }
