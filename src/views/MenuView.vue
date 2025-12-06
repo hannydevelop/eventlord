@@ -91,7 +91,20 @@
                         </div>
                         <p class="menu-item-description">Seafood Pepper Soup with Bread bun</p>
                     </article>
+                </div>
 
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <div class="menu-item-header">
+                            <div class="menu-item-title-group">
+                                <h3 class="menu-item-title">Assorted Peppersoup and Bread Bun</h3>
+                                <div class="menu-item-tags">
+                                    <span class="menu-item-tag">PEPPER SOUP</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-item-description">Assorted Peppersoup and Bread Bun</p>
+                    </article>
                 </div>
             </section>
 
@@ -146,18 +159,7 @@
                         <p class="menu-item-description">Steamed White Rice and Plain Sauce</p>
                     </article>
 
-                    <article class="menu-item">
-                        <div class="menu-item-header">
-                            <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Shawarma Egg Rice / Chicken / Salad </h3>
-                                <div class="menu-item-tags">
-                                    <span class="menu-item-tag">RICE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="menu-item-description">Shawarma Egg Rice / Chicken / Salad</p>
-                    </article>
-
+                    <!---
                     <article class="menu-item">
                         <div class="menu-item-header">
                             <div class="menu-item-title-group">
@@ -169,6 +171,7 @@
                         </div>
                         <p class="menu-item-description">Steamed Basmati Rice / Boneless Chicken Sauce</p>
                     </article>
+                    -->
 
                     <article class="menu-item">
                         <div class="menu-item-header">
@@ -281,18 +284,6 @@
                             </div>
                         </div>
                         <p class="menu-item-description">Onugbu Soup & Fufu / Semo</p>
-                    </article>
-
-                    <article class="menu-item">
-                        <div class="menu-item-header">
-                            <div class="menu-item-title-group">
-                                <h3 class="menu-item-title">Shawarma Egg Rice / Chicken / Salad </h3>
-                                <div class="menu-item-tags">
-                                    <span class="menu-item-tag">RICE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="menu-item-description">Shawarma Egg Rice / Chicken / Salad</p>
                     </article>
 
                     <article class="menu-item">
